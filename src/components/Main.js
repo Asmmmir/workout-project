@@ -23,7 +23,7 @@ const Main = () => {
       </h1>
       <div className="flex container mx-auto mt-12 justify-around items-center max-md:flex-col">
         <div className="flex-1 flex justify-center">
-          <img src={MyImg} alt="" className="max-md:max-w-[50%]" />
+          <img src={MyImg} alt="" />
         </div>
         <div className="flex flex-col flex-1">
           <div className="flex justify-between items-center gap-2 max-md:flex-col">

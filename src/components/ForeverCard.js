@@ -9,7 +9,7 @@ const ForeverCard = ({data}) => {
   return (
     <div className="relative flex items-center justify-between max-md:justify-start border-4 rounded-2xl font-rubik my-5 p-5 gap-8 hover:border-[#01B9C5] hover:bg-teal-100 cursor-pointer">
       <div className='max-md:flex max-md:flex-col hidden'>
-    <p className="uppercase font-bold text-2xl">{data.name}</p>
+    <p className="uppercase font-bold text-[#2D3242] text-2xl">{data.name}</p>
     <p>Всегда быть в форме ⭐️</p>
       </div>
     <p className="uppercase font-bold text-2xl text-[#2D3242] max-md:hidden">{data.name}</p>
