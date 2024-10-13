@@ -46,17 +46,17 @@ const Main = () => {
                   return <ForeverCard data={card} key={card.id} />
                 }
               })}
-          <div>
-            <p className="font-rubik text-2xl text-[#2D3242] mb-5">
+          <div className="p-2">
+            <p className="font-rubik md:text-2xl text-sm text-[#2D3242] mb-5">
               Следуя плану на 3 месяца, люди получают в 2 раза лучший результат,
               чем за 1 месяц
             </p>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 p-2">
             <input className="w-[25px] h-[25px]" id="privacy" type="checkbox" />
-            <label className="text-[#95979F] text-xl" htmlFor="privacy">
+            <label className="text-[#95979F] md:text-xl text-sm" htmlFor="privacy">
               Я соглашаюсь с{" "}
-              <a className="text-[#2D97F9] text-xl" href="#">
+              <a className="text-[#2D97F9]" href="#">
                 Правилами сервиса{" "}
               </a>{" "}
               и условиями{" "}
@@ -68,7 +68,7 @@ const Main = () => {
           <button className="self-start max-md:self-center bg-[#fd4d35] py-5 px-20 rounded-full uppercase text-xl text-white font-rubik my-7 focus:animate-pulse">
             Купить
           </button>
-          <span className="text-[#818798] text-md font-rubik">
+          <span className="text-[#818798] text-md font-rubik p-2">
             Нажимая «Купить», Пользователь соглашается на автоматическое
             списание денежных средств по истечению купленного периода.
             Дальнейшие списания по тарифам участвующим в акции осуществляются по
