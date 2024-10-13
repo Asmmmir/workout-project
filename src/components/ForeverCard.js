@@ -12,14 +12,14 @@ const ForeverCard = ({data}) => {
     <p className="uppercase font-bold text-2xl">{data.name}</p>
     <p>Всегда быть в форме ⭐️</p>
       </div>
-    <p className="uppercase font-bold text-2xl max-md:hidden">{data.name}</p>
-    <div className="flex flex-col">
-      <p className="text-bold text-[50px]">{data.price}₽</p>
+    <p className="uppercase font-bold text-2xl text-[#2D3242] max-md:hidden">{data.name}</p>
+    <div className="flex flex-col text-[#2D3242]">
+      <p className="font-bold text-[50px]">{data.price}₽</p>
       <span className="text-[#95979F] text-[24px] self-end line-through">
         18 990₽
       </span>
     </div>
-    <p className='max-md:hidden'>Всегда быть в форме и поддерживать своё здоровье ⭐️</p>
+    <p className='max-md:hidden text-[#2F4353]'>Всегда быть в форме и поддерживать своё здоровье ⭐️</p>
         <div className={`absolute right-2 top-[-30px] ${timeIsUp ? 'bg-red-400 top-[-1000px] opacity-0 duration-1000 ease-in-out' : '' }`}>
           <img className="relative" src={discountImg} alt="" />
           <span className="absolute top-[30%] left-[25%] text-white text-xl font-semibold">

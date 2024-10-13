@@ -65,7 +65,7 @@ const Main = () => {
               </a>
             </label>
           </div>
-          <button className="self-start max-md:self-center bg-[#fd4d35] py-5 px-20 rounded-full uppercase text-xl text-white font-rubik my-7">
+          <button className="self-start max-md:self-center bg-[#fd4d35] py-5 px-20 rounded-full uppercase text-xl text-white font-rubik my-7 focus:animate-pulse">
             Купить
           </button>
           <span className="text-[#818798] text-md font-rubik">

@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <header className="flex justify-center items-center gap-10 py-5 bg-white">
       <div>
-        <h2 className="font-bold text-3xl font-rubik">Скидка действует:</h2>
+        <h2 className="font-bold md:text-3xl text-xl font-rubik">Скидка действует:</h2>
       </div>
       <div className="flex items-center gap-2">
         <div className="flex flex-col items-center">
