@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { timeToggle } from "../store/timeSlice/timeSlice";
 
 const Header = () => {
-  const [time, setTime] = useState(5);
+  const [time, setTime] = useState(120);
   const dispatch = useDispatch();
 
   useEffect(() => {
